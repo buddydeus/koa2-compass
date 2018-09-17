@@ -1,0 +1,32 @@
+{
+	"name":         "koa2-compass",
+	"description":  "Sass for Koa2",
+	"keywords":     [
+		"koa2",
+		"compass",
+		"sass",
+		"scss"
+	],
+	"license":      "MIT",
+	"homepage":     "https://bitbucket.org/netms/koa2-compass/overview",
+	"repository":   {
+		"type": "git",
+		"url":  "https://bitbucket.org/netms/koa2-compass.git"
+	},
+	"bugs":         {
+		"url": "https://bitbucket.org/netms/koa2-compass/issues"
+	},
+	"version":      "1.0.3",
+	"logs":         {
+		"1.0.1": "初始版本，参照内容为node-compass",
+		"1.0.3": "fix bug"
+	},
+	"dependencies": {
+		"jbd": "*"
+	},
+	"author":       {
+		"name":  "Buddy-Deus",
+		"email": "31325423@qq.com"
+	},
+	"main":         "index.js"
+}
