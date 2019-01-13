@@ -1,3 +1,7 @@
+## koa2-compass  
+[![NPM version][npm-image]][npm-url]
+  
+  
 ## koa2-compass是什么?
 
 koa2-compass是[koa@2.0.0](https://github.com/koajs/koa)的中间件，其前身是koa-compass模块，在[koa@2.0.0](https://github.com/koajs/koa)后没有对async进行兼容，所以此项目作为补丁插件存在。  
@@ -22,3 +26,11 @@ app.use(require("koa2-compass")({
 }));
 app.use(require("koa-static")(path.join(__dirname, "./static")));
 ```
+  
+  
+## License
+
+  MIT
+
+[npm-image]: https://img.shields.io/npm/v/koa2-compass.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/koa2-compass
